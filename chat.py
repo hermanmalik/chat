@@ -1,4 +1,4 @@
-#!/home/herman/HMD/Projects/chat/.venv/bin/python
+#!/home/herman/HMD/proj/chat/.venv/bin/python
 
 import openai
 import os
@@ -11,7 +11,7 @@ import glob
 
 # Configuration
 MODEL = "gpt-4o-mini"
-SAVE_DIR = os.path.expanduser("~/HMD/Projects/chat")
+SAVE_DIR = os.path.expanduser("~/HMD/proj/chat")
 DEFAULT_SAVE_FILE = os.path.join(SAVE_DIR, ".chatgpt_saved.json")
 
 # Common model aliases

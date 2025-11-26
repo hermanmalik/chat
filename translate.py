@@ -1,4 +1,4 @@
-#!/home/herman/HMD/Projects/chat/.venv/bin/python
+#!/home/herman/HMD/proj/chat/.venv/bin/python
 
 import os
 import sys
