@@ -10,9 +10,9 @@ from datetime import datetime
 import glob
 
 # Configuration
-MODEL = "gpt-4o-mini"
 SAVE_DIR = os.path.expanduser("~/HMD/proj/chat")
 DEFAULT_SAVE_FILE = os.path.join(SAVE_DIR, ".chatgpt_saved.json")
+MODEL = "gpt-4o-mini"
 
 # Common model aliases
 MODEL_ALIASES = {
@@ -22,6 +22,7 @@ MODEL_ALIASES = {
     "4": "gpt-4",
     "3.5": "gpt-3.5-turbo",
     "turbo": "gpt-3.5-turbo",
+    "5-mini": "gpt-5-mini"
 }
 
 # ANSI color codes
